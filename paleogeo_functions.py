@@ -53,7 +53,7 @@ def rotated_kent_pole_plot(ax, kent_dict, Eulers, marker='o', s=20, marker_color
     rotated_dict = {'dec': dec, 'inc': inc, 'Zdec': Zdec, 'Zinc': Zinc, 'Edec': Edec, 'Einc': Einc, 'Zeta': Zeta, 'Eta': Eta}
     ipmag.plot_pole_ellipse(ax, rotated_dict, 
                             color = marker_color,
-                            edgecolor = marker_color,
+                            edgecolor = 'k',
                             marker = marker,
                             markersize = s,
                             label = '',
