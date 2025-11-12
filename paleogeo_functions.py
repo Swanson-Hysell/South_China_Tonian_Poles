@@ -20,7 +20,7 @@ def rotated_pole_plot(ax, plon, plat, a95, Eulers, marker='o', s=20, marker_colo
 
     # plot pole and a95 using ipmag.plot_pole
     ipmag.plot_pole(ax, rotated_plon, rotated_plat, a95, color=marker_color, 
-                    label='', markersize=s,  A95_alpha=alpha, outline=False)
+                    label='', marker=marker, markersize=s,  A95_alpha=alpha, outline=False)
     return rotated_plon, rotated_plat
 
 
